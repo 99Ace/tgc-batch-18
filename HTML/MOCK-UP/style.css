@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+#main {
+    background-image: url(https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/03/sol-and-luna-900x643.png);
+    background-size: cover;
+    height: 100vh;
+}
+.overlay {
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    
+    box-sizing: border-box;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-image>img {
+    height: 40px;
+}
+#nav {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+#nav>ul {
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+}
+#nav>ul>li {
+    display: inline-block;
+}
+#nav>ul>li>a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* Styling for callout */
+.callout {
+    /* border :1px solid black; */
+    width : 300px;
+    text-align: center;
+}
+.callout h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: whitesmoke;
+}
+.callout input {
+    width: 100%;
+    height: 30px;
+    border-radius: 24px;
+}
