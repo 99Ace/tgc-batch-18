@@ -1,0 +1,44 @@
+.parent {
+    border : 1px solid black;
+    height: 400px;
+    width: 400px;
+
+    /* position: relative; */
+}
+.child {
+    border : 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.red    {
+    background-color: red;
+    position: relative;
+    /* retains original slot */
+
+    left: 100px; /* 100px from it's original left */
+    
+    /* 50% width of the parent */
+    left: 50%; 
+    
+    /* 100px from it's original top */ 
+    bottom : 50px; 
+    
+}
+.orange    {
+    background-color: orange;
+    position: absolute;
+    /* give up original position */
+
+    /* 100px from main screen left */
+    left: 100px; 
+    
+    /* 50% width of the main screen */
+    left: 50%; 
+
+    bottom: 50px;
+}
+.green    {
+    background-color: green;
+    position: relative;
+    bottom: 50%;
+}

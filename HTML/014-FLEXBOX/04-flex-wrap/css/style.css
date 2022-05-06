@@ -1,0 +1,34 @@
+.parent {
+    border : 1px solid black;
+    height: 500px;
+    width: 500px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content:center;
+    /* align-content:center; */
+    gap: 10px;
+    
+}
+.child {
+    border : 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+.red    {
+    background-color: red;
+}
+.red:hover {
+    align-self:center;
+}
+.yellow    {
+    background-color: yellow;
+    order: -10000;
+}
+.green    {
+    background-color: green;
+    order: -10001;
+
+}
+

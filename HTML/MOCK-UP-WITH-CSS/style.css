@@ -1,0 +1,22 @@
+.sg-link {
+    color: red;
+    text-decoration:none;
+}
+.text-darkred {
+    /* color: rgb(153, 25, 25); */
+    /* color: #FF00AA; */
+    color: rgba(7, 6, 6, 0.889);
+}
+.border {
+    /* border:1px solid black */
+}
+.header-div {
+    text-align: center;
+}
+.img-div {
+    width: 600px;
+    /* border: 1px solid black; */
+}
+.img-fluid {
+    width: 100%;
+}

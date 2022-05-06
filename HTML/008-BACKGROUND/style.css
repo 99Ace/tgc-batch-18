@@ -1,0 +1,25 @@
+.box {
+    border: 1px solid black;
+    /* height and width */
+    /* height: 100px; */
+    height: 100vh;
+    /* width: 1000px; */
+
+
+    /* background color */
+    background-color: rgba(175, 238, 238, 0.515);
+    /* opacity */
+    /* opacity: 0.5; */
+    
+    /* background image */
+    background-image: url(https://www.bakingbusiness.com/ext/resources/2020/5/BKAtHome_Lead.jpg?t=1588594539&width=1080);
+
+    /* background size */
+    background-size:cover;
+    /* background position */
+    background-position: center;
+    /* background attachment */
+    background-attachment: fixed;
+    /* background repeat */
+    /* background-repeat: no-repeat; */
+} 

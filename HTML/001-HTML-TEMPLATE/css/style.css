@@ -1,0 +1,27 @@
+/* body {
+    background-color: red;
+} */
+.border-1 {
+    border: 1px solid black;
+}
+.btn {
+    background-color: darkorange;
+    border-radius: 24px;
+    padding: 4px 30px;
+    display: inline-block;
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+    background-color:paleturquoise;
+}
+.nav>li {
+    border: 1px solid black;
+    display: inline-block;
+}
+.nav>li>a {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 20px 30px;
+}

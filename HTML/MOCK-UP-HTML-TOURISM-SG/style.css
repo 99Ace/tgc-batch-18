@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+.nav {
+    /* border : 1px solid black; */
+    height: 70px;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav>* {
+    display: inline-block;
+}
+.navbar-brand img {
+    height: 40px;
+    /* border : 1px solid black; */
+}
+.nav>ul {
+    /* border : 1px solid red; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* border: 1px solid rgb(202, 202, 202); */
+}
+.nav>ul>li {
+    display: inline-block;
+    list-style: none;
+    border: 0;
+}
+/* .nav>ul>li>a { */
+.navlink {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    display: block;
+    padding: 25px 20px;
+    border-left: 1px solid rgb(202, 202, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+.icon {
+    border-left: 1px solid rgb(202, 202, 202);
+    padding: 25px 10px;
+}
+
+/* main styling */
+.main {
+    background-image: url(https://media-magazine.sgp1.digitaloceanspaces.com/wp-content/uploads/2021/05/treetop-walk-889.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.main-header h1 {
+    margin: 0;
+    color: white;    
+}
+
+.main-callout {
+    /* border: 1px solid white; */
+    margin-top: 200px;
+}
+.main-callout>div {
+    display: inline-block;
+    color: white;
+    width: 28%;
+    padding: 30px 30px 15px 0;
+    box-sizing: border-box;
+}
+.main-callout h6 {
+    color: red;
+    margin: 0;
+}
+.main-callout span {
+    font-size: 1.6rem;
+}
+.main-callout>.icon {
+    width: 10%;
+}

@@ -1,0 +1,31 @@
+.parent {
+    border : 1px solid black;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    border : 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+.red    {
+    background-color: red;
+}
+.yellow    {
+    background-color: yellow;
+}
+.green    {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grandchild {
+    border : 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color:paleturquoise;
+}

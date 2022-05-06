@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mt-2 {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- form tag -->
+    <form action="">
+
+        <!-- text input -->
+        <div class="mt-2">
+            <label for="username"> <b>Username :</b> </label>
+            <input type="text" name="username" id="username" placeholder="username" value="David" />
+        </div>
+        <!-- email input -->
+        <div class="mt-2">
+            <label for="email"><b>Email : </b></label>
+            <input type="email" name="email" id="email" placeholder="e.g abc@gmail.com" value="" required/>
+        </div>
+        <!-- password -->
+        <div class="mt-2">
+            <label for="password"><b>Password : </b></label>
+            <input type="password" name="password" id="password" placeholder="*********" value="" />
+        </div>
+        <!-- number -->
+        <div class="mt-2">
+            <label for="age"><b>Age : </b></label>
+            <input type="number" name="age" id="age" min="0" max="99"/>
+        </div> 
+        <!-- range -->
+        <div class="mt-2">
+            <label for="rating"><b>Rating : </b></label>
+            <input type="range" name="rating" id="rating" min="1" max="5" value="" />
+        </div>
+        <!-- radio -->
+        <div class="mt-2">
+            <input type="radio" name="gender" id="Male" value="male" checked/> 
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Female" value="female" /> 
+            <label for="Female">Female</label>
+        </div>
+        <div class="mt-2">
+            <input type="radio" name="bmi" id="bmi1" value="below20" /> 
+            <label for="bmi1"> below 20 </label>
+            <input type="radio" name="bmi" id="bmi2" value="20andbelow" /> 
+            <label for="bmi2">  20 - 25 </label>
+            <input type="radio" name="bmi" id="bmi3" value="above25" /> 
+            <label for="bmi3"> above 25 </label>
+        </div>
+        <!-- checkbox -->
+        <div class="mt-2">
+            <input type="checkbox" name="hobbies" id="swimming" value="swimming" /> 
+            <label for="swimming">Swimming</label>
+            <input type="checkbox" name="hobbies" id="dancing" value="dancing" checked/> 
+            <label for="dancing">Dancing</label>
+            <input type="checkbox" name="hobbies" id="cycling" value="cycling" checked/> 
+            <label for="cycling">Cycling</label>
+        </div>
+        <!-- dropdown -->
+        <div class="mt-2">
+            <label for="nationality">Nationality : </label>
+            <select name="nationality" id="nationality">
+                <option value="Singaporean">Singaporean</option>
+                <option value="Malaysian" selected>Malaysian</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Indonesian">Indonesian</option>
+            </select>
+        </div>
+        <!-- textarea -->
+        <div class="mt-2">
+            <label for="description">Description of yourself: </label><br/>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="write something about yourself" ></textarea>
+        </div>
+        <!-- date -->
+        <div class="mt-2">
+            <label for="dob">Date of Birth : </label>
+            <input type="datetime-local" name="dob" id="dob" value="">
+        </div>
+
+        <!-- file upload -->
+        <div class="mt-2">
+            <input type="file" name="image">
+        </div>
+
+        <!-- checkbox -->
+        <div class="mt-2">
+            <input type="checkbox" name="tnc" value="aceept"> 
+            I accept the T&C of the company
+        </div>
+
+        <div class="mt-2">
+            <button>Send</button>
+            <input type="submit" value="Register">
+        </div>
+
+
+
+        
+    </form>
+</body>
+
+</html>

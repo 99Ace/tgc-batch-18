@@ -1,0 +1,22 @@
+h1 {
+    /* change text color */
+    /* color selection */
+    color: chocolate;
+
+    /* change text position */
+    text-align: center;
+
+    /* text-transform */
+    text-transform: capitalize;
+}
+a {
+    text-decoration: line-through;
+}
+h2 {
+    /* text-indent */
+
+    /* letter-spacing */
+
+    /* word spacing */
+    word-spacing: 5px;
+}
