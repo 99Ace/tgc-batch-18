@@ -1,0 +1,166 @@
+/* Mobile Settings */
+/* navbar styling */
+.navbar-brand img{
+    height: 36px;
+}
+.nav-collapse-icon {
+    font-size: 1.8rem;
+    color: darkorange;
+}
+.navbar-toggler {
+    border: 2px solid darkorange !important;
+    padding: 7px 14px;
+}
+.nav-link {
+    text-align: center;
+    color: rgb(146, 146, 146) !important;
+    font-size: 14px;
+    font-weight:300;
+}
+.btn {
+    border-radius: 24px;
+    padding: 6px 30px;
+    font-size: 14px;
+}
+.btn-primary {
+    background-color: darkorange;
+    border: 1px solid darkorange;
+}
+.btn-primary:hover {
+    background-color: rgb(184, 109, 17);
+    border: 1px solid rgb(184, 109, 17);
+}
+/* to remove the box shadow of the collapse button when clicked on */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
+
+/* main styling  */
+main {
+    height: 250px;
+    background-color: beige;
+    background-image: url(../images/my-first-skool-happy-children.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+/* creating a darker background image effect  */
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(93, 93, 93, 0.3);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-bottom: 30px;
+}
+
+#main2 {
+    height: 250px;
+    background-color: beige;
+    background-image: url(../images/my-first-skool-happy-children.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+    display: flex;
+    align-items: flex-end;
+}
+.overlay2 {
+    height: 50%;
+    width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,0), darkorange);
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-bottom: 30px;
+}
+
+/* section-form styling */
+#section-form {
+    max-width: 800px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(108, 168, 181);
+    color: whitesmoke;
+}
+footer h5 {
+    font-size: 1.6rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.footer-icon {
+    font-size: 1.8rem;
+    color: rgb(29, 56, 70);
+}
+.footer-address {
+    font-size: 13px;
+}
+.footer-contact {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.footer-email {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.footer-contact:hover,.footer-email:hover{
+    color: white;
+}
+
+/* <div class="footer-search">
+    <input type="text">
+    <button>></button>
+</div> */
+.footer-search {
+    display: flex;
+}
+.footer-search input {
+    height: 40px;
+    border: none;
+}
+.footer-search button {
+    border: none;
+    background-color: rgb(153, 50, 50);
+    color: whitesmoke;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* >768px Ipad settings */
+@media screen and (min-width:768px) {
+    body {
+        background-color: paleturquoise;
+    }
+    .navbar-brand img{
+        height: 42px;
+    }
+}
+
+/* >992px settings */
+@media screen and (min-width:992px) {
+    body {
+        background-color: rgb(198, 238, 175);
+    }
+}
+
+/* >1200px laptop settings */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: rgb(222, 175, 238);
+    }
+}

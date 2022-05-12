@@ -1,0 +1,7 @@
+.nav-link {
+    font-size: 1.4rem;
+    color: red !important;
+}
+.nav-link:hover {
+    color: rgb(2, 2, 2) !important;
+}
