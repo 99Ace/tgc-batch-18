@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+    <!-- Link to own CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <title>Sushi Restaurant</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-lg-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section id="sect-listing" class="container-fluid">
+        <!-- search bar -->
+        <div class="border p-2 d-flex align-items-center gap-2 bg-light">
+            <a class="badge bg-dark">Main</a>
+            <a class="badge bg-dark">Appetizers</a>
+            <a class="badge bg-dark">Sides</a>
+            <a class="badge bg-dark">Desserts</a>
+            <a class="badge bg-dark">Drinks</a>
+
+            <div class="d-none d-md-flex ms-auto">
+                <input type="text" class="form-control form-control-sm" placeholder="e.g salmon sashimi">
+                <button class="badge bg-danger">Search</button>
+            </div>
+            <!-- reset button -->
+            <a href=""><i class="fa-solid fa-rotate-right"></i></a>
+        </div>
+
+        <!-- listing -->
+        <div class="row row-cols-2 
+                        row-cols-md-3 
+                        row-cols-lg-4
+                        row-cols-xl-5">
+            <!-- each listing -->
+            <div class="col">
+                <!-- bootstrap -->
+                <div class="card">
+                    <a href="eachlisting.html"><img src="images/food-sushi-1.png" class="card-img-top" alt="..."></a>
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Tempura Udon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="" class="tag">udon</a>
+                        <a href="" class="tag">soup</a>
+                        <a href="" class="tag">main</a>
+                        <a href="" class="tag">tempura</a>
+                    </div>
+                    <div class="d-flex">
+                        <a href="eachlisting.html" class="btn btn-sm w-100 text-light btn-info">info</a>                   
+                        <a href="#" class="btn btn-sm w-100 btn-success">add to cart</a>     
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!-- bootstrap -->
+                <div class="card">
+                    <img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000370/img/basic/a0000370_main.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tempura Udon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="" class="tag">udon</a>
+                        <a href="" class="tag">soup</a>
+                        <a href="" class="tag">main</a>
+                        <a href="" class="tag">tempura</a>
+                    </div>
+                    <a href="#" class="btn btn-sm w-100 btn-success">add to cart</a>
+                </div>
+            </div>
+            <div class="col">
+                <!-- css -->
+                <div class="frame">
+                    <div class="frame-img">
+                        <img src="images/food-sushi-1.png" alt="">
+                    </div>
+                    <div class="frame-info">
+                        <h5 class="card-title">Tempura Udon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="" class="tag">udon</a>
+                        <a href="" class="tag">soup</a>
+                        <a href="" class="tag">main</a>
+                        <a href="" class="tag">tempura</a>
+                    </div>
+                    <a href="#" class="btn btn-sm w-100 btn-success">add to cart</a>
+                </div>
+            </div>
+            <div class="col">
+                <!-- css -->
+                <div class="frame">
+                    <div class="frame-img">
+                        <img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/00/a0000370/img/basic/a0000370_main.jpg" alt="">
+                    </div>
+                    <div class="frame-info">
+                        <h5 class="card-title">Tempura Udon</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="" class="tag">udon</a>
+                        <a href="" class="tag">soup</a>
+                        <a href="" class="tag">main</a>
+                        <a href="" class="tag">tempura</a>
+                    </div>
+                    <a href="#" class="btn btn-sm w-100 btn-success">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

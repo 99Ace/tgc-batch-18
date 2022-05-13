@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+
+    <!-- Link to own CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/eachlisting.css">
+
+    <title>Sushi Restaurant</title>
+    <style>
+        .bg-001 {
+            height: 100vh;
+            background-image: url(images/bg-sushi.jpeg);
+            background-size: cover;
+        }
+        .bg-002 {
+            height: 100vh;
+            background-image: url(images/food-sushi-1.png);
+            background-size: cover;
+        }
+        .bg-003 {
+            height: 100vh;
+            background-image: url(images/food-sushi-2.png);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-lg-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 eachlisting-images">
+                <!-- display for main image -->
+                <div class="main-image">
+                    <img src="images/food-sushi-1.png" class="img-fluid" alt="">
+                </div>
+                <!-- wrapper for thumbnail images -->
+                <div class="images-wrapper">
+                    <div class="thumb-image">
+                        <img src="images/food-sushi-1.png" alt="">
+                    </div>
+                    <div class="thumb-image">
+                        <img src="images/food-sushi-1.png" alt="">
+                    </div>
+                    <div class="thumb-image">
+                        <img src="images/food-sushi-1.png" alt="">
+                    </div>
+                    <div class="thumb-image">
+                        <img src="images/food-sushi-1.png" alt="">
+                    </div>
+                    <div class="thumb-image">
+                        <img src="images/food-sushi-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 eachlisting-info p-5">
+                <h2>Tempura Udon</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum voluptates doloremque veniam quos eaque
+                    dolorem ullam. Quis, beatae inventore numquam nobis provident distinctio commodi doloribus minima,
+                    quidem veritatis esse harum.</p>
+                <a href="" class="tag">udon</a>
+                <a href="" class="tag">soup</a>
+                <a href="" class="tag">main</a>
+                <a href="" class="tag">tempura</a>
+    
+                <h3 class="text-danger my-3">$18.90</h3>
+                <div class="cart-control">
+                    <button>-</button>
+                    <button> 1 </button>
+                    <button>+</button>
+                </div>
+    
+            </div>
+        </div>
+        
+
+        
+
+    </section>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

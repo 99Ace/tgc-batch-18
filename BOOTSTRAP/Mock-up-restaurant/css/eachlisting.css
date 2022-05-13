@@ -1,0 +1,32 @@
+.images-wrapper {
+    box-sizing: border-box;
+    background-color: aqua;
+    height: 100px;
+    padding: 5px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.thumb-image {
+    height: 95%;
+    width: 150px;
+    display: inline-block;
+}
+.thumb-image>img {
+    height: 100%;
+}
+
+.cart-control {
+    display: flex;
+    /* border:  1px solid red ; */
+
+    width: 150px;
+    display: flex;
+}
+.cart-control>button {
+    border:  1px solid grey ;
+    background-color: white;
+    flex: 1;
+}
+.cart-control>button:nth-child(2) {
+    flex: 3;
+}
